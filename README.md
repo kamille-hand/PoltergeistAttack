@@ -12,4 +12,12 @@
   The pictures that we selected 
 
 ## Object Detectors
-  We evaluate PG attacks using four academic object detectors YOLO V3/V4/V5 and Faster R-CNN
+We evaluate PG attacks using four academic object detectors YOLO V3/V4/V5 and Faster R-CNN, and one commercial object detector YOLO 3D used in Apollo.
+The backbone networks used for the pre-trained models YOLO V3/V4/V5 and Faster R-CNN are Darknet-53 and ResNet-101, respectively. The four academic detectors are all trained on the Common Objects in Context (COCO) dataset and Apollo is trained on an unrevealed backbone network and dataset.
+
+## Bayesian Optimization
+To optimize the designed objective functions, we employ Bayesian Optimization, a sequential design strategy for global optimization of blackbox functions that does not assume any functional forms.
+
+
+
+
